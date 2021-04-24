@@ -3,5 +3,6 @@ from django.urls import path, include
 from . import views
 
 urlpatterns = [
-    path('', views.mobile),
+    path('', views.index),
+    path('analyze',views.analyze),
 ]
